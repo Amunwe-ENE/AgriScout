@@ -1,6 +1,14 @@
 export default{
-    crops: [ { name: 'Cabage', 
-            scientificName: ' Cbage',
+    crops: [ { name: '', 
+            scientificName: '',
+            shortDescription: '',
+            image:'',
+            sowingTime:'',
+            annualRainfall:'',
+            harvestTime:'',
+            sowingDepth:'',
+            soilPH:'',
+            soilPreferences:''
 
          },
          {

@@ -10,6 +10,7 @@
 <script>
 import Crop from '@/components/Crop.vue'
 import Card from '@/components/Card.vue'
+import { mapState } from 'Vuex'
 export default {
   data () {
     return {
@@ -27,6 +28,9 @@ export default {
   components: {
     Crop,
     Card
+  },
+  computed: {
+    ...mapState(['crops'])
   }
 }
 </script>

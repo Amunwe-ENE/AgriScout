@@ -1,7 +1,7 @@
 <template>
     <div >
         <b-card
-        title="Crop Name"
+        :title="crop.name"
          sub-title="Scientific Name"
         img-src="https://picsum.photos/600/300/?image=25"
         img-alt="Image"
@@ -22,7 +22,8 @@
 import Crop from './Crop.vue'
 export default {
   props: {
-    index: Number
+    index: Number,
+    crop: Object
   },
   components: {
     Crop

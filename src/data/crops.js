@@ -105,7 +105,67 @@ export default{
             soilPH:'pH 6 - 6 , 8',
             soilPreferences:'Prefers soil, rich in organic matter with good moisture holding properties.'
 
+         },
+         { name: 'Carrots', 
+            scientificName: 'Daucus carota',
+            shortDescription: 'Carrots contains vitamin A and can be stored for relatively long period of time.',
+            image:'\src\assets\image\crops\carrot.jpg',
+            sowingTime:'All season crop - use different varieties for summer and winter.',
+            annualRainfall:'',
+            harvest:'70 - 85 days after sowing.',
+            sowingDepth:'1 - 2 cm',
+            soilPH:'pH between 6 - 7 ',
+            soilPreferences:'Deep sandy loam with compost or manure. Avoid heavy compact soil.'
+         },
+         { name: 'Cucurbits', 
+            scientificName: 'Cucurbitaceae',
+            shortDescription: 'Cucurbits are very useful vegetables; they have similar cultural requirements and generall suffer from the same diseases.',
+            image:'\src\assets\image\crops\cucurbits.jpg',
+            sowingTime:'August to December',
+            annualRainfall:'',
+            harvest:'Cucumber: 6 - 8 weeks after sowing, Squash: 6 - 10 weeks after sowing, Zucchini: As soon as fruit are 10  -15 cm long, Sweet melons: Harvest when the white, lower portion starts getting yellow, Pumpkins: 3 - 5 months after sowing.',
+            sowingDepth:'3 - 4 cm',
+            soilPH:'',
+            soilPreferences:''
+
+         },
+         { name: 'Green beans', 
+            scientificName: 'Phaseolus vulgaris',
+            shortDescription: 'Beans are legumes and will fix nitrogen from the air if the appropriate Rhizobium species of bacteria is present ( by inoculation or naturally).',
+            image:'\src\assets\image\crops\greenBean.jpg',
+            sowingTime:'From September to March ( Avoid frost)',
+            annualRainfall:'',
+            harvest:'45 - 80 days after sowing.',
+            sowingDepth:'2 - 10 cm',
+            soilPH:'pH 5, 5-7',
+            soilPreferences:'Prefer soil that is well supplied with water. clay loam and loam soils are the most productive.'
+
+         },
+         { name: 'Peppers and chillies', 
+            scientificName: 'Capsicum spp.',
+            shortDescription: 'Peppers are small, bushy annuals or short lived perennials with fruit usually red or green in color.Chillies are usually used as a seasoning or spice and are also used in home-prepared insect repellents.',
+            image:'\src\assets\image\crops\peppersChillies.jpg',
+            sowingTime:'September to March ( avoid frost).',
+            annualRainfall:'',
+            harvest:'2 - 3 months after transplanting. Green peppers are best harvested while fruit are still green or just turning red. Chillies - when turning red. Do not store green peppers longer than 24 hours. Chillies can be dried on a platform within 2 - 3 days and the stored and sold. ',
+            sowingDepth:'',
+            soilPH:'pH of 6 - 7',
+            soilPreferences:'Well-drained sandy or sandy loam soils.'
+
+         },
+         { name: 'Onion', 
+            scientificName: 'Allium cepa',
+            shortDescription: 'Onions are biennial herbs with bulbs formed at the base of the plant from thickened food storage leaves. Onions contain calcium, iron, fibre and vitamins B1 , B2 and C.',
+            image:'\src\assets\image\crops\Onion.jpg',
+            sowingTime:'February to May',
+            annualRainfall:'',
+            harvest:'6 - 8 months.',
+            sowingDepth:'1 cm',
+            soilPH:'pH 6 , 8',
+            soilPreferences:'Grows well in sandy or sandy loam soils but prefers a high level of organic matter.'
+
          }
+
 
 ]
 }

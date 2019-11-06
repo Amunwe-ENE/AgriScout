@@ -81,6 +81,30 @@ export default{
             soilPH:'pH 6 - 8',
             soilPreferences:'Deep, fertile soils.'
 
+         },
+         { name: 'Spinach', 
+            scientificName: 'Beta vulgaris var. cicla',
+            shortDescription: 'It is easy to grow but it does not store well and should be eaten as soon after picking.',
+            image:'\src\assets\image\crops\spinach.jpg',
+            sowingTime:'April to August',
+            annualRainfall:'',
+            harvest:'Harvest evry week when the crop is about eight weeks old. The crop can produce for many months.',
+            sowingDepth:'1 - 2 cm',
+            soilPH:'pH 6 - 7',
+            soilPreferences:'Heavy feeder. Deep, fertile soils.'
+
+         },
+         { name: 'Cabbage', 
+            scientificName: 'Brassica oleracea var. capitata',
+            shortDescription: 'It is very popular and healthy and contains the vitamins A, B1, B2, C abd fibre.',
+            image:'\src\assets\image\crops\cabbage.jpg',
+            sowingTime:'Cool season crop, plant April to June',
+            annualRainfall:'',
+            harvest:'90 - 100 days after sowing, cut with a sharp knife when heads are firm and hard. Yield of more than 20t/ha is possible.',
+            sowingDepth:'1 cm',
+            soilPH:'pH 6 - 6 , 8',
+            soilPreferences:'Prefers soil, rich in organic matter with good moisture holding properties.'
+
          }
 
 ]

@@ -2,8 +2,8 @@
     <div >
         <b-card
         :title="crop.name"
-         sub-title="Scientific Name"
-        img-src="https://picsum.photos/600/300/?image=25"
+         :sub-title="crop.scientificName"
+        src="C:/Users/Fredrika/Desktop/Vue/climate-app/src/assets/image/crops/mahangu.jpg"
         img-alt="Image"
         img-top
         tag="article"
@@ -11,9 +11,9 @@
         class="mb-2"
         >
     <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
+      {{crop.shortDescription}}
     </b-card-text>
-
+      <img src="" alt="">
     <Crop :index="index"/>
   </b-card>
     </div>
@@ -21,6 +21,11 @@
 <script>
 import Crop from './Crop.vue'
 export default {
+  data () {
+    return {
+      image: require(this.crop.image)
+    }
+  },
   props: {
     index: Number,
     crop: Object

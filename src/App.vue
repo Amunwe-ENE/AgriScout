@@ -23,7 +23,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-   background: url('assets/image/background-3.jpg') no-repeat center center fixed;
+   background: url('./assets/image/background-4.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

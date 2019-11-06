@@ -70,16 +70,16 @@ export default{
             soilPreferences:'Light sandy, loamy soil with good stucture and a clay content of 8 - 10%,'
 
          },
-         { name: '', 
-            scientificName: '',
-            shortDescription: '',
-            image:'',
-            sowingTime:'',
+         { name: 'Beetroot', 
+            scientificName: 'Beta vulgaris var. conditiva',
+            shortDescription: 'It is a cool weather crop.',
+            image:'\src\assets\image\crops\beetroot.jpg',
+            sowingTime:'February to April and August to October',
             annualRainfall:'',
-            harvest:'',
-            sowingDepth:'',
-            soilPH:'',
-            soilPreferences:''
+            harvest:'Summer: 60 - 80 days ; Winter: 100 - 130 days, when tubers are 5 - 6 cm in diameter, leave small ones in ground to grow bigger.',
+            sowingDepth:' 2 - 3 cm',
+            soilPH:'pH 6 - 8',
+            soilPreferences:'Deep, fertile soils.'
 
          }
 

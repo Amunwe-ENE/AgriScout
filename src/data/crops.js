@@ -164,6 +164,42 @@ export default{
             soilPH:'pH 6 , 8',
             soilPreferences:'Grows well in sandy or sandy loam soils but prefers a high level of organic matter.'
 
+         },
+         { name: 'Sweet potatoes', 
+            scientificName: 'Ipomea batatas',
+            shortDescription: 'Sweet potatoes are a warm-season crop and are propagated by means of cuttings or tubers as soon as the soil is fairly moist.',
+            image:'\src\assets\image\crops\sweetPotatoe.jpg',
+            sowingTime:'August to November',
+            annualRainfall:'750 mm',
+            harvest:'Lift up with a fork to harvest from 3 to 5 months after planting, depending on the cultivar.',
+            sowingDepth:'5 cm ( shallower in heavy soils, deeper in light soils). ',
+            soilPH:'',
+            soilPreferences:'Wide range of soils below 25 % clay. Soil should be fertile and free of stones. Old cultivars such as the Yellow Borrie mst not be planted in sandy soil, while new cultivars  such as Ribbok grow very well in sandy soil.'
+
+         },
+         { name: 'Tomatoes', 
+            scientificName: 'Lycopersicon esculentum',
+            shortDescription: 'Tomatoes contain calcium, iron and vitamins A, B and C.',
+            image:'\src\assets\image\crops\tomatoes.jpg',
+            sowingTime:'August - November',
+            annualRainfall:'',
+            harvest:'3 - 4 months after transplanting.',
+            sowingDepth:'1 cm',
+            soilPH:'pH 5 - 7',
+            soilPreferences:'Grow well on a range of soils from sandy loams to light clay. The beat soils for tomatoes are fertile soils rich in organic matter, able to retain moisture, deep and well drained, not too acidic'
+
+         },
+         { name: 'Green salad ', 
+            scientificName: 'Lactuca sativa',
+            shortDescription: '',
+            image:'\src\assets\image\crops\greenSalad.jpg',
+            sowingTime: 'All year but avoid frost and provide shade netting from October to February. ',
+            annualRainfall:'',
+            harvest:'90 days. Manual cutting only.',
+            sowingDepth:'2 mm - sow in nursely beds and transplant three to four weeks later.',
+            soilPH:'pH 4 , 8 - 8',
+            soilPreferences:'Sand, saand loam, loamy sand, sand clay loam below 30 % clay.'
+
          }
 
 

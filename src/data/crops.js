@@ -4,7 +4,11 @@ export default [
     shortDescription: 'Pearl millet is the major food cereal in the northern communinal areas and is popularly known as mahangu. Pearl millet is normally reserved for those areas where maize and sorghum fail to grow because of low rainfall or adverse soil factors. ',
     image: 'C:/Users/Fredrika/Desktop/Vue/climate-app/src/assets/image/crops/mahangu.jpg',
     sowingTime: 'October / November (after three consecutive rainy days with an accumulated rainfall of atleast 20 mm.)',
-    annualRainfall: { min: 300, max: 700, unit: 'mm', comment: 'It can tolerate heat and little rainfall.' },
+    annualRainfall: { 
+      min: 300, 
+      max: 700, 
+      unit: 'mm', 
+      comment: 'It can tolerate heat and little rainfall.' },
     harvest: 'Mature, dry heads are cut and placed on an elevated platform to dry further for threshing.',
     sowingDepth: { min: 30 , max : 40, unit:' mm'},
     soilPH: 'Neutral',
@@ -15,11 +19,11 @@ export default [
     shortDescription: 'Sorghum is a traditional staple food throughout the semi-arid areas of Africa. It is  a crop of multiple uses.',
     image: 'C:/Users/Fredrika/Desktop/Vue/climate-app/src/assets/image/crops/sorghum.jpg',
     sowingTime: 'October / November',
-    annualRainfall: {
-      min: 300,
-      max: 400,
-      unit: 'mm',
-      comment: 'highly drought resistant'
+    annualRainfall: { 
+      min: 300, 
+      max: 400, 
+      unit: 'mm', 
+      comment:'highly drought resistant'
     },
     harvest: 'Harvest at complete ripeness; thresh by beating with stick / thresher.',
     sowingDepth: '2 - 3 cm in clay soils; 5 - 6 cm in sandy soils',

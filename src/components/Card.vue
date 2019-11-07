@@ -13,7 +13,7 @@
     <b-card-text>
       {{crop.shortDescription}}
     </b-card-text>
-    <Crop :index="index"/>
+    <Crop :index="index" :crop="crop"/>
   </b-card>
     </div>
 </template>

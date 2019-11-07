@@ -10,7 +10,7 @@ export default [
       unit: 'mm',
       comment: 'It can tolerate heat and little rainfall.' },
     harvest: 'Mature, dry heads are cut and placed on an elevated platform to dry further for threshing.',
-    sowingDepth: { min: 30, max: 40, unit: ' mm' },
+    sowingDepth: '30 - 40 mm',
     soilPH: 'Neutral',
     soilPreferences: 'Tolerates a wide range of soils but performs best on well drained deep and lightly textured soils. Tolerates soils with less than 10% clay but does not tolerate waterlogging. High tolerance to salinity. '
   },

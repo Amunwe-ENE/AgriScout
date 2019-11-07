@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <b-card-group columns>
-          <Card  v-for="(crop, index) in crops" :index="index" :crop="crops[index]" :key="index"/>
+          <Card  v-for="(crop,index) in crops" :index="index" :crop="crop" :key="index"/>
         </b-card-group>
         <Crop />
         {{crops[0].name}}

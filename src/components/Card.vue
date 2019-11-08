@@ -13,8 +13,7 @@
     <b-card-text>
       {{crop.shortDescription}}
     </b-card-text>
-      <img src="../assets/image/crops/mahangu.jpg" alt="">
-    <Crop :index="index"/>
+    <Crop :index="index" :crop="crop"/>
   </b-card>
     </div>
 </template>

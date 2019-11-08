@@ -2,7 +2,7 @@
   <div class="container">
     <div class="home-flex">
       <div class="flex-2"><b-table striped hover class="opa" :items="items2"> </b-table></div>
-      <div><router-link to="/croplist"><b-button variant="outline-primary">Crops</b-button></router-link></div>
+      <div><router-link to="/croplist"><b-button variant="outline-primary">Crops To grow</b-button></router-link></div>
     </div>
   </div>
 </template>

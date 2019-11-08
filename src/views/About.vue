@@ -1,16 +1,16 @@
 <template>
   <div class="about">
     <h1>About Us !</h1>
-    <p>This webApp recommends on what crop to grow in a certain season.<br></p>
+    <p>Agriscout is a web based application available on both mobile and desktop. The application wishes to solve <br></p>
+    <WeatherApi/>
   </div>
 </template>
-
 <script>
-import weatherApi from '../components/weatherApi.vue'
+import WeatherApi from '@/components/WeatherApi.vue'
+
 export default {
-component : {
-  weatherApi
-}
-  
+  components: {
+    WeatherApi
+  }
 }
 </script>

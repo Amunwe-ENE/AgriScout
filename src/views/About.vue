@@ -1,9 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <weatherApi> 
-      
-    </weatherApi>
+    <h1>About Us !</h1>
+    <p>This webApp recommends on what crop to grow in a certain season.<br></p>
   </div>
 </template>
 

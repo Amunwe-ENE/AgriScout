@@ -1,20 +1,22 @@
 <template>
     <div class="container">
         <b-card-group columns>
-          <Card  v-for="(item, index) in items" :index="index" :crop="crops[index]" :key="index"/>
+          <Card  v-for="(crop,index) in crops" :index="index" :crop="crop" :key="index"/>
         </b-card-group>
         <Crop />
+        {{crops[0].name}}
 
     </div>
 </template>
 <script>
 import Crop from '@/components/Crop.vue'
 import Card from '@/components/Card.vue'
+import { mapState } from 'vuex'
 export default {
   data () {
     return {
       items: [1, 2, 3, 4, 5, 6],
-      crops: [{ name: 'Maize', id: 1 },
+      cropss: [{ name: 'Maize', id: 1 },
         { name: 'Mahangu', id: 2 },
         { name: 'Sorghum', id: 3 },
         { name: 'Wheat', id: 4 },
@@ -27,6 +29,9 @@ export default {
   components: {
     Crop,
     Card
+  },
+  computed: {
+    ...mapState(['crops'])
   }
 }
 </script>

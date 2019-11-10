@@ -3,8 +3,8 @@
         <b-card
         :title="crop.name"
          :sub-title="crop.scientificName"
-        src="C:/Users/Fredrika/Desktop/Vue/climate-app/src/assets/image/crops/mahangu.jpg"
-        img-alt="Image"
+        :img-src="crop.image"
+        :img-alt="crop.image"
         img-top
         tag="article"
         style="max-width: 20rem;"
@@ -13,8 +13,7 @@
     <b-card-text>
       {{crop.shortDescription}}
     </b-card-text>
-      <img src="" alt="">
-    <Crop :index="index"/>
+    <Crop :index="index" :crop="crop"/>
   </b-card>
     </div>
 </template>

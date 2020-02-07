@@ -8,9 +8,9 @@
         img-top
         tag="article"
         style="max-width: 20rem;"
-        class="mb-2"
+        class="mb-2 square-img"
         >
-    <b-card-text>
+    <b-card-text class="description" >
       {{crop.shortDescription}}
     </b-card-text>
     <Crop :index="index" :crop="crop"/>
@@ -34,3 +34,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.description {
+  height: 30px;
+  line-height: 1;
+  overflow: hidden;
+}
+.square-img > img {
+   height: 220px;
+}
+</style>
